@@ -38,6 +38,8 @@ public class ProfileActivity extends BaseActivity<ProfilePresenter> {
     @BindView(R.id.tv_name) TextView tvName;
     @BindView(R.id.tv_dob) TextView tvDob;
     @BindView(R.id.tv_gender) TextView tvGender;
+    @BindView(R.id.tv_phone) TextView tvPhone;
+    @BindView(R.id.tv_email) TextView tvEmail;
 
     @BindView(R.id.iv_profile) ImageView ivProfile;
 
@@ -75,6 +77,8 @@ public class ProfileActivity extends BaseActivity<ProfilePresenter> {
         tvName.setText(profileRes.getFirstname() + " " + profileRes.getLastname());
         tvDob.setText(profileRes.getBirthday().split("T")[0]);
         tvGender.setText(profileRes.getGender());
+        tvPhone.setText(profileRes.getPhoneNumber().getContact());
+        tvEmail.setText(profileRes.getEmail().getContact());
 
         Glide.with(this).load(profileRes.getAvatar()).placeholder(ContextCompat.getDrawable(this, R.drawable.placeholder)).into(ivProfile);
 

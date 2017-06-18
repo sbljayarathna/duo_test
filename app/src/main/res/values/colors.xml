@@ -6,5 +6,6 @@
 
     <color name="color_black">#000000</color>
     <color name="color_white">#ffffff</color>
-    <color name="color_divider">#888888</color>
+    <color name="color_background">#feead9</color>
+
 </resources>

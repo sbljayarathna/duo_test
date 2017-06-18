@@ -8,4 +8,9 @@
     <string name="text_settings">SETTINGS</string>
     <string name="text_cancel">CANCEL</string>
 
+    <string name="text_dob">DOB :</string>
+    <string name="text_phone">Phone :</string>
+    <string name="text_email">Email :</string>
+    <string name="text_gender">Gender :</string>
+
 </resources>
