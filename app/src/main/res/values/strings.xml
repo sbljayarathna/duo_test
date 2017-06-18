@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DuoTest</string>
+
+    <string name="msg_title_no_network">No internet connection!</string>
+
+    <string name="msg_turn_on_network">Please turn on network connection to continue.</string>
+
+    <string name="text_settings">SETTINGS</string>
+    <string name="text_cancel">CANCEL</string>
+
+</resources>
